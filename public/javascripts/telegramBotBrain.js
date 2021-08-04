@@ -1,7 +1,7 @@
 let moment = require('moment')
 const https = require('https');
 const fs = require('fs');
-let telegram = require('node-telegram-bot-api') ;
+let telegram = require('node-telegram-bot-api');
 let token = 'xxx'
 let opt = {polling: true}
 let bot = new telegram(token, opt)
